@@ -2937,11 +2937,17 @@ main >.inner {
   top: -10%;
   left: -10%;
 }
-.social .item.::before {
-  background-color: ;
+.social .item.github::before {
+  background-color: #191717;
 }
-.social .item. i {
-  color: ;
+.social .item.github i {
+  color: #191717;
+}
+.social .item.email::before {
+  background-color: #55acd5;
+}
+.social .item.email i {
+  color: #55acd5;
 }
 .social .item:focus i,
 .social .item:hover i {
