@@ -1,9 +1,7 @@
 menu:
-  Profile: /
   CV: /cv/
   Projects: /projects/
-  Writing: /blog/
-  Archives: /archives/
+  Publications & Reports: /publications/
 
 links:
   github: https://github.com/AMwhisper

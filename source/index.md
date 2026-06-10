@@ -11,6 +11,7 @@ date: 2026-06-06 00:00:00
     <div class="profile-actions">
       <a href="/cv/">View CV</a>
       <a href="/projects/">Review Projects</a>
+      <a href="#publications-reports">Reports</a>
       <a href="https://github.com/AMwhisper" target="_blank" rel="noopener">GitHub Profile</a>
     </div>
   </div>
@@ -39,6 +40,16 @@ My technical toolkit includes Python, C, ROS2, OpenCV, PyTorch, CUDA, Linux, and
     <p class="education-period">2022-2026</p>
     <h3>B.Eng. in Electrical and Electronic Engineering</h3>
     <p>University of Shanghai for Science and Technology (USST) and Liverpool John Moores University (LJMU)</p>
+  </article>
+</section>
+
+<section id="publications-reports" class="professional-section reports-section">
+  <h2>Publications & Reports</h2>
+  <article>
+    <p class="report-period">Engineering Project Final Report · 2026</p>
+    <h3>Modeling and Control of a Biped Serial-Leg Robot with Wheel Actuation</h3>
+    <p>This report presents the modeling, control design, and simulation validation of a biped serial-leg robot with wheel actuation. The work includes forward kinematics, virtual model control, wheel-leg inverted pendulum modeling, LQR balance control, PID speed control, gain scheduling, and Simscape Multibody verification.</p>
+    <a href="/files/Biped_Serial_Leg_Robot.pdf" target="_blank" rel="noopener">Open Report PDF</a>
   </article>
 </section>
 
@@ -159,12 +170,28 @@ body {
   margin-top: 1rem;
 }
 
+.reports-section article {
+  margin-top: 1rem;
+}
+
 .education-section h3 {
   color: #102a43;
   margin: 0.25rem 0 0.5rem;
 }
 
+.reports-section h3 {
+  color: #102a43;
+  margin: 0.25rem 0 0.75rem;
+}
+
 .education-period {
+  color: #52606d;
+  font-size: 0.9rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.report-period {
   color: #52606d;
   font-size: 0.9rem;
   font-weight: 700;
